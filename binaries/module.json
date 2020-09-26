@@ -9,7 +9,7 @@
         "UpdateUrl": "https://raw.githubusercontent.com/ricochhet/HunterPie.DamageChat/master/binaries/",
         "MinimumVersion": "1.0.3.97",
         "FileHashes": {
-            "config.json": "e82cf7a94820a0aac334a6b6e44b71229c71875e95b90f2872ed99cad607dd29",
+            "config.json": "InstallOnly",
             "DamageChat.dll": "7204a6d364a79665d40fc8e1dcc9333cc53c7a8f44fc9fa7a70e8ca9b768786e"
         }
     }
