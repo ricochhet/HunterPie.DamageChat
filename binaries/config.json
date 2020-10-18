@@ -1,3 +1,4 @@
 {
-  "Hotkey": "Ctrl+Shift+F5"
+  "Hotkey": "Ctrl+Shift+F5",
+  "MessageDelay": 100
 }

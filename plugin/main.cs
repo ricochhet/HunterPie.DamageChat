@@ -175,10 +175,10 @@ namespace HunterPie.Plugins
           KeyMultiEvent(0x1D, 0x2F);
 
           // We want a short delay before pressing enter otherwise both functions play out at the same time, and sometimes causes nothing to send
-          Thread.Sleep(100);
+          Thread.Sleep(config.MessageDelay);
           KeyPressEvent(0x1C);
           // We use another one here to prevent from two key events firing at the same time
-          Thread.Sleep(100);
+          Thread.Sleep(config.MessageDelay);
         }
       }
     }
@@ -255,6 +255,7 @@ namespace HunterPie.Plugins
     internal class ModConfig
     {
       public string Hotkey { get; set; }
+      public Int32 MessageDelay { get; set; }
     }
   }
 }
