@@ -10,7 +10,7 @@
         "MinimumVersion": "1.0.3.97",
         "FileHashes": {
             "config.json": "InstallOnly",
-            "DamageChat.dll": "8be5875d968ac480c1cf139f3e5dd8eccc86f3e78d0ba241806b075bb17fcef7"
+            "DamageChat.dll": "12d02aef8c1550df8cf67ea0b7721d99cf6655fa5d6b8601192d48dc6e5dc2fe"
         }
     }
 }

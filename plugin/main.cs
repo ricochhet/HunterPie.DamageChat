@@ -254,8 +254,8 @@ namespace HunterPie.Plugins
 
     internal class ModConfig
     {
-      public string Hotkey { get; set; }
-      public Int32 MessageDelay { get; set; }
+      public string Hotkey { get; set; } = "Ctrl+Shift+F5";
+      public Int32 MessageDelay { get; set; } = 100;
     }
   }
 }
