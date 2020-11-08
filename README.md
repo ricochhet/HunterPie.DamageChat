@@ -1,6 +1,7 @@
 # HunterPie - Damage Chat
 
-**Note: Some users may experience errors when using this plugin, but the reason for this is unknown.**
+> **NOTE:** Some users may experience errors when using this plugin, but the reason for this is unknown.
+
 This plugin sends the damage dealt of each member to chat.
 
 ## Installation
