@@ -1,12 +1,12 @@
 # HunterPie - Damage Chat
 
-> **NOTE:** Some users may experience errors when using this plugin, but the reason for this is unknown.
+> **NOTE:** This will not work when other programs are using your clipboard, make sure to close them beforehand.
 
 This plugin sends the damage dealt of each member to chat.
 
 ## Installation
 
-**MINIMUM HUNTERPIE VERSION v1.0.3.97**
+**MINIMUM HUNTERPIE VERSION v1.0.3.99**
 
 1. Download the `module.json` [here](https://github.com/ricochhet/HunterPie.DamageChat/raw/master/release/DamageChatPlugin.zip).
 2. Drag the `module.json` into the HunterPie window, or alternatively place it into `HunterPie/Modules/DamageChat`.
