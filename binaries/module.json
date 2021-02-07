@@ -1,13 +1,13 @@
 {
     "Name": "DamageChat",
-    "Description": "Post damage dealt to chat. (Untested-2.0.0)",
+    "Description": "Post damage dealt to chat.",
     "EntryPoint": "plugin.cs",
     "Author": "Ricochet",
     "Version": "2.0.0",
     "Dependencies": [],
     "Update": {
-        "_UpdateUrl": "https://raw.githubusercontent.com/ricochhet/HunterPie.DamageChat/master/binaries/",
-        "MinimumVersion": "1.0.5",
+        "UpdateUrl": "https://raw.githubusercontent.com/ricochhet/HunterPie.DamageChat/master/binaries/",
+        "MinimumVersion": "1.0.5.0",
         "FileHashes": {
             "config.json": "InstallOnly",
             "DamageChat.dll": "c6561ec550eb6277ed89369aa7bfa5705b1ff1680162ec289c3d0a5e41c25f6a"
