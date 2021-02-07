@@ -52,7 +52,7 @@ namespace HunterPie.Plugins
       }
     }
 
-    public void HotkeyCallback() 
+    public async void HotkeyCallback() 
     {
       List<Member> members = Context.Player.PlayerParty.Members;
       List<DamageInformation> damageInformation = new List<DamageInformation>();
@@ -69,18 +69,11 @@ namespace HunterPie.Plugins
       List<DamageInformation> sortedDamageInformation = damageInformation.OrderBy(i => i.DamageValue).ToList();
       sortedDamageInformation.Reverse();
 
-      if (Game.IsWindowFocused) 
+      foreach (DamageInformation information in sortedDamageInformation)
       {
-        foreach (DamageInformation information in sortedDamageInformation)
-        {
-          SendMessage(information.DamageMessage);
-        }
+        await Chat.Say(information.DamageMessage);
+        await Task.Delay(config.MessageDelay);
       }
-    }
-
-    public async void SendMessage(string message) {
-      await Chat.Say(message);
-      await Task.Delay(config.MessageDelay);
     }
 
     public void Unload()
@@ -91,7 +84,7 @@ namespace HunterPie.Plugins
     internal class ModConfig
     {
       public string Hotkey { get; set; } = "F5";
-      public Int32 MessageDelay { get; set; } = 100;
+      public Int32 MessageDelay { get; set; } = 10;
     }
   }
 }

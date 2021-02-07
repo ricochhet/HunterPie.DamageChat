@@ -2,6 +2,10 @@
 
 This plugin sends the damage dealt of each member to chat.
 
+## Changelog
+- **USAGE CHANGE:** This update resets config, default **Hotkey** is now **F5**, default **MessageDelay** is now **10**.
+- **CORE CHANGE:** HunterPie.Core.Native functionality
+
 ## Installation
 
 **MINIMUM HUNTERPIE VERSION v1.0.5**
