@@ -43,9 +43,9 @@ class AutoHasher():
             if (subpath in AutoHasher.IGNORED_FILES):
                 continue;
 
-            #if "config.json" == subpath:
-            #    self.Hashes[os.path.join(path if path != None else "", subpath)] = "InstallOnly"
-            #    continue
+            if "config.json" == subpath:
+                self.Hashes[os.path.join(path if path != None else "", subpath)] = "InstallOnly"
+                continue
 
             if (os.path.isdir(os.path.join(path if path != None else "", subpath))):
                 self.GetHash(os.path.join(path if path != None else "", subpath))
