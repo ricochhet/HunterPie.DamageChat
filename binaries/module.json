@@ -3,7 +3,7 @@
     "Description": "Post damage dealt to chat.",
     "EntryPoint": "plugin.cs",
     "Author": "Ricochet",
-    "Version": "2.0.0",
+    "Version": "2.0.1",
     "Dependencies": [],
     "Update": {
         "UpdateUrl": "https://raw.githubusercontent.com/ricochhet/HunterPie.DamageChat/master/binaries/",
